@@ -55,10 +55,12 @@ export default {
             },
         diffOrders(data) {
           let diff = data.filter(x => !this.orders.map(y => y.id).includes(x.id))
+          console.log(data.map(y => y.id))
+          console.log(this.orders.map(y => y.id))
           console.log(diff)
-          for(let i in diff) {
+          for(let i of diff) {
             console.log(i)
-            this.orders.push(data[i])
+            this.orders.push(i)
           }
         }
         },

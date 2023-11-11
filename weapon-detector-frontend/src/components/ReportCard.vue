@@ -47,7 +47,7 @@ export default {
         }
     },
     props: {
-        id: String,
+        id: Number,
         name: String
     },
     methods: {

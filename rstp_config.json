@@ -1,0 +1,5 @@
+{
+    "ОрешкаТавринская": {
+        "rstpLink": "rtsp://admin:A1234567@188.170.176.190:8031/Streaming/Channels/101?transportmode=unicast&profile=Profile_1"
+    }
+}
